@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+:root {
+--color-text: whitesmoke;
+--color-questions: black;
+--color-buttons: lightgray;
+--color-answer-button-text: black;
+
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,7 +27,6 @@ body {
 
 .header {
   background: #140523;
-  color: #ffffff;
   height: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px;
@@ -40,7 +47,7 @@ main {
 }
 
 h1 {
-  color: whitesmoke;
+  color: var(--color-text);
   margin: 10px;
   text-align: center;
 }
@@ -53,7 +60,7 @@ h1 {
   text-align: center;
   height: 15rem;
   border-radius: 2rem;
-  border-color: whitesmoke;
+  border-color: var(--color-text);
 }
 
 h2 {
@@ -64,7 +71,7 @@ h2 {
 }
 
 .questions {
-  color: #140523;
+  color: var(--color-questions);
 }
 
 .card__bookmark {
@@ -82,9 +89,8 @@ h2 {
 .answer_button {
   position: relative;
   border-color: rgb(172, 172, 172);
-  background-color: lightgray;
-  border: 2px solid black;
-  color: black;
+  background-color: var(--color-buttons);
+  color: var(--color-answer-button-text);
   top: 20%;
   padding: 5px 16px;
   border-radius: 5px;
@@ -93,7 +99,7 @@ h2 {
 li {
   position: relative;
   background-color: gray;
-  color: whitesmoke;
+  color: var(--color-text);
   padding: 5px 16px;
   border-radius: 5px;
   bottom: -3rem;
@@ -114,7 +120,7 @@ navigation {
 
 nav {
   background: #140523b9;
-  color: #ffffff;
+  color: var(--color-text);
   height: 80px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   position: sticky;
@@ -127,7 +133,7 @@ nav {
 }
 
 a {
-  color: white;
+  color: var(--color-text);
   height: 48px;
   position: sticky;
   bottom: 0;
@@ -154,12 +160,12 @@ a:hover {
   display: flex;
   left: 10rem;
   top: -9rem;
-  color: white;
+  color: var(--color-text);
   font-size: 24px;
 }
 
 .profile_header {
-  color: whitesmoke;
+  color: var(--color-text);
   position: relative;
   display: flex;
   justify-content: center;
@@ -173,7 +179,7 @@ justify-content: start;
 }
 
 .about_me {
-  color: white;
+  color: var(--color-text);
   position: relative;
   display: flex;
   justify-content: start;
@@ -181,13 +187,13 @@ justify-content: start;
 }
 
 .about_me_list {
-  color: whitesmoke;
+  color: var(--color-text);
   position: relative;
   display: flex;
 }
 
 .about_me_text {
-  color: whitesmoke;
+  color: var(--color-text);
   position: relative;
   display: flex;
   top: -5rem;
@@ -197,12 +203,12 @@ h2 {
   position: relative;
   display: flex;
   justify-content: center;
-  color: whitesmoke;
+  color: var(--color-text);
   top: 0rem;
 }
 
 .setting_mode {
-  color: whitesmoke;
+  color: var(--color-text);
   position: relative;
   display: flex;
   top: -4rem;
@@ -231,7 +237,7 @@ h2 {
 }
 
 .switch_slide {
-  background-color: whitesmoke;
+  background-color: var(--color-text);
   width: 1.2rem;
   height: 1.6rem;
   box-shadow: 0 0 1px blue;
@@ -249,6 +255,6 @@ h2 {
 }
 
 .switch input:checked + .switch_slide {
-  background-color: whitesmoke;
+  background-color: var(--color-text);
   transform: translateX(1.3rem);
 }
