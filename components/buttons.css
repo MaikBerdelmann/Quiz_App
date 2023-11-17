@@ -23,3 +23,36 @@
     border 1px solid; 
     top: 3rem;
   }
+
+
+    .answerChoise:hover {
+    background-color: goldenrod;
+  }
+
+
+  .question_block .answerChoise {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+   }
+
+  .answerChoises {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    
+    
+    
+    
+  }
+
+  .answerChoise {
+    display: flex;
+    flex-wrap: wrap;
+    top: 3rem;
+    padding: 7px;
+    border-radius: 3rem;
+    margin: 20px;
+    
+    
+  }
