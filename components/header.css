@@ -9,7 +9,7 @@
   --color-answer-button-text: #000000;
   --border-color: #8888e4;
   --background-color-nav: #140523b9;
-
+  }
   
   .header {
     background: var(--background-color-nav);

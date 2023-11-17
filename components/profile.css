@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+  --color-text: #f5f5f5;
+  --color-questions: #000000;
+  --color-buttons: #d3d3d3;
+  --color-answer-button-text: #000000;
+  --border-color: #8888e4;
+  --background-color-nav: #140523b9;
+  }
+
+
+  .profilbild {
+    position: relative;
+    display: flex;
+    height: 120px;
+    width: 120px;
+    bottom: 15rem;
+    border-radius: 50%;
+    overflow: hidden;
+    top: -3rem;
+  }
+  
+  .pfrofile_name {
+    position: relative;
+    display: flex;
+    left: 10rem;
+    top: -9rem;
+    color: var(--color-text);
+    font-size: 24px;
+  }
+  
+  .profile_header {
+    color: var(--color-text);
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .settings_headline {
+  position: relative;
+  display: flex;
+  top: -7rem;
+  justify-content: start;
+  }
+  
+  .about_me {
+    color: var(--color-text);
+    position: relative;
+    display: flex;
+    justify-content: start;
+    top: -5rem;
+  }
+  
+  .about_me_list {
+    color: var(--color-text);
+    position: relative;
+    display: flex;
+  }
+  
+  .about_me_text {
+    color: var(--color-text);
+    position: relative;
+    display: flex;
+    top: -5rem;
+  }
+  
+  h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: var(--color-text);
+    top: 0rem;
+  }
+  
+  .setting_mode {
+    color: var(--color-text);
+    position: relative;
+    display: flex;
+    top: -4rem;
+  }
+  
+  .switch input {
+    appearance: none;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    margin: 0;
+    border-radius: 20%;
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    display: flex;
+  }
+  
+  .switch {
+    height: 2rem;
+    width: 2.8rem;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    top: -6.5rem;
+    left: 12rem;
+  }
+  
+  .switch_slide {
+    background-color: var(--color-text);
+    width: 1.2rem;
+    height: 1.6rem;
+    box-shadow: 0 0 1px blue;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.15rem;
+    border-radius: 20%;
+    pointer-events: none;
+    transition: transform 0.5s ease-in-out;
+  }

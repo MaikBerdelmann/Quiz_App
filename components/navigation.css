@@ -9,4 +9,35 @@
   --color-answer-button-text: #000000;
   --border-color: #8888e4;
   --background-color-nav: #140523b9;
+  }
+
+
+  nav {
+    background: var(--background-color-nav);
+    color: var(--color-text);
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+    position: sticky;
+    padding: 30px;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2rem;
+  }
   
+  a {
+    color: var(--color-text);
+    height: 48px;
+    position: sticky;
+    bottom: 0;
+    text-decoration: none;
+    
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  navigation {
+    text-decoration: none;
+  }

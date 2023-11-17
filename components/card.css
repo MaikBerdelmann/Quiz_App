@@ -10,7 +10,7 @@
   --border-color: #8888e4;
   --background-color-nav: #140523b9;
 
-  
+  }
 
 
   .question_block {
@@ -45,4 +45,71 @@
     font-size: 2em;
     padding: 1px 12px;
     border-radius: 50%;
+  }
+
+  li {
+    position: relative;
+    background-color: gray;
+    color: var(--color-text);
+    padding: 5px 16px;
+    border-radius: 5px;
+    bottom: -3rem;
+    list-style: none;
+    
+  }
+  
+  ul {
+    display: flex;
+    position: relative;
+    gap: 15px;
+    justify-content: center;
+    top: 1rem;
+  }
+
+  h2 {
+    position: relative;
+    margin: 0;
+    text-align: center;
+    top: -1rem;
+  }
+  
+  .questions {
+    color: var(--color-questions);
+  }
+  
+  .card__bookmark {
+    position: absolute;
+    font-size: 2em;
+    padding: 6px 12px;
+    border-radius: 50%;
+    top: -1rem;
+    right: -1rem;
+    font-size: 2em;
+    padding: 1px 12px;
+    border-radius: 50%;
+  }
+
+  li {
+    position: relative;
+    background-color: gray;
+    color: var(--color-text);
+    padding: 5px 16px;
+    border-radius: 5px;
+    bottom: -3rem;
+    list-style: none;
+    
+  }
+  
+  ul {
+    display: flex;
+    position: relative;
+    gap: 15px;
+    justify-content: center;
+    top: 1rem;
+  }
+  
+  .badges {
+    position: relative;
+    display: flex;
+    padding: 20px;
   }

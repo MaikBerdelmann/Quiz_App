@@ -53,7 +53,7 @@ ______.question_block {
   border-color: var(--border-color);
 }
 
-h2 {
+/*h2 {
   position: relative;
   margin: 0;
   text-align: center;
@@ -74,7 +74,7 @@ h2 {
   font-size: 2em;
   padding: 1px 12px;
   border-radius: 50%;
-}
+} */
 
 _____.answer_button {
   position: relative;
@@ -87,7 +87,7 @@ _____.answer_button {
   border 1px solid; 
 }
 
-li {
+/*li {
   position: relative;
   background-color: gray;
   color: var(--color-text);
@@ -104,13 +104,13 @@ ul {
   gap: 15px;
   justify-content: center;
   top: 1rem;
-}
+} */
 
 navigation {
   text-decoration: none;
 }
 
-nav {
+/*nav {
   background: var(--background-color-nav);
   color: var(--color-text);
   height: 80px;
@@ -135,9 +135,9 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
+} */
 
-.profilbild {
+/*.profilbild {
   position: relative;
   display: flex;
   height: 120px;
@@ -240,22 +240,5 @@ h2 {
   border-radius: 20%;
   pointer-events: none;
   transition: transform 0.5s ease-in-out;
-}
+} */
 
-.switch input:checked {
-  background-color: blue;
-  border-color: black;
-}
-
-.switch input:checked + .switch_slide {
-  background-color: var(--color-text);
-  transform: translateX(1.3rem);
-}
-
-.antwortButton {
-  color: green;
-}
-
-#hidden {
-  display: none;
-}

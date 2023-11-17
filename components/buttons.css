@@ -9,7 +9,7 @@
   --color-answer-button-text: #000000;
   --border-color: #8888e4;
   --background-color-nav: #140523b9;
-
+  }
   
 
   .answer_button {
@@ -21,4 +21,5 @@
     padding: 5px 16px;
     border-radius: 5px;
     border 1px solid; 
+    top: 3rem;
   }
