@@ -68,7 +68,7 @@
     color: var(--color-text);
     padding: 5px 16px;
     border-radius: 5px;
-    bottom: -3rem;
+    bottom: -4rem;
     list-style: none;
     
   }
@@ -110,17 +110,17 @@
     color: var(--color-text);
     padding: 5px 16px;
     border-radius: 5px;
-    bottom: -3rem;
+    bottom: o;
     list-style: none;
     
   }
   
   ul {
     display: flex;
-    position: relative;
+    position: absolute;
     gap: 15px;
-    justify-content: center;
-    top: -1rem;
+    left: 7.5rem;
+    top: 7rem;
   }
   
   .badges {
@@ -135,4 +135,8 @@
     flex-direction: row;
     flex: 1;
     gap: 1rem;
+  }
+
+  .answer {
+    display: none;
   }

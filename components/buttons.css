@@ -21,12 +21,12 @@
     padding: 5px 16px;
     border-radius: 5px;
     border 1px solid; 
-    top: 3rem;
+    top: rem;
   }
 
 
     .answerChoise:hover {
-    background-color: goldenrod;
+    background-color: rgb(26, 191, 26);
   }
 
 
@@ -52,7 +52,51 @@
     top: 3rem;
     padding: 7px;
     border-radius: 3rem;
-    margin: 20px;
+    
     
     
   }
+
+
+
+  .bookmark_button_clickt {
+    background-color: rgba(0, 0, 255, 0.651);
+    color: white;
+    
+    
+  }
+  
+  .bookmark_button {
+    position: absolute;
+   height: 3rem;
+   width: 3rem;
+   border-radius: 50%;
+   right: -1rem;
+   top: -1rem;
+   font-size: 24px;
+   color: black;
+  }
+
+  .bookmark_button_two {
+    position: absolute;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    right: -1rem;
+    top: -1rem;
+    font-size: 24px;
+    color: black;
+  }
+  .bookmark_button_clickt_two {
+    background-color: rgba(0, 0, 255, 0.651);
+    color: white;
+    
+    
+  }
+  .answerBackground {
+    position: relative;
+    
+    
+  }
+
+ 

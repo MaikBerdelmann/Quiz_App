@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/components/profile.css" />
     
     
-    <!--<script src="./index.js" defer></script>-->
+    <script src="./components/index.js" defer></script>
     
   </head>
   <body>
@@ -24,40 +24,29 @@
     <main>
       
       <section class="question_block">
-        <h2 class="questions">Wann wurde W-Lan erfunden?</h2>
-        <button class="card__bookmark">?</button>
-        
-        
-         <div class="answerChoises"> 
-        <button class="answerChoise">1789</button>
-        <button class="answerChoise">1990</button>
-        <button class="answerChoise">2008</button>
-        </div>
-      <ul class="answerbackground">
-          <li>#Internet</li>
-          <li>#Erfindung</li>
-          <li>#Kabellos</li>
-        </ul>
-      </section>
-      <section class="question_block">
         <h2 class="questions">Was ist das Startbildschirm Lied von Need for Speed: Underground 2?</h2>
-        <button class="card__bookmark">?</button>
-        <div class="answerChoises"> 
-          <button class="answerChoise">Miley Cyrus</button>
-          <button class="answerChoise">Parkway Drive</button>
-          <button class="answerChoise">Snoop Dogg</button>
-          </div>
-        <ul class="answerbackground">
+        <button class="bookmark_button" data-js="bookmark_button">?</button>
+       
+        
+        
+      
+     
+          <button onclick="toggleText()">Show Answer</button>
+          <p id="toggleText" class="hidden">Snoop dogg feat. the Doors - Riders on the Storm.</p>
+        
+          <ul class="answerbackground">
           <li>#Gaming</li>
           <li>#Musik</li>
           <li>#Tuning</li>
           
         </ul>
-      </section>
+    
       <nav class="navigation"/>
       <a aria-label="Home" href="index.html">Home</a>
       <a aria-label="To Bookmark" href="bookmark.html">Bookmark</a>
+      <a aria-label="new card" href="#">New Card</a>
       <a aria-label="To Profile" href="profile.html">Profile</a>
+      
       </nav>
       
     </main>
