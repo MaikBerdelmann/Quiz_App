@@ -17,29 +17,30 @@
     color: var(--color-text);
     height: 80px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-    position: absolute;
+    position: relative;
     padding: 30px;
-    bottom: -20rem;
+    bottom: 0;
     z-index: 1;
     display: flex;
     justify-content: space-around;
+    flex: 1;
     border-radius: 2rem;
   }
   
   a {
     color: var(--color-text);
     height: 48px;
-    position: sticky;
+    position: staicky;
     bottom: 0;
     text-decoration: none;
-    display: flex;
-    justify-content: space-around;
     
   }
   
   a:hover {
     text-decoration: underline;
   }
-  navigation {
+  
+  .navigation {
     text-decoration: none;
+    
   }

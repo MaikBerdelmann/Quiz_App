@@ -105,7 +105,7 @@
   }
 
   li {
-    position: relative;
+    
     background-color: gray;
     color: var(--color-text);
     padding: 5px 16px;
@@ -119,8 +119,12 @@
     display: flex;
     position: absolute;
     gap: 15px;
-    left: 7.5rem;
-    top: 7rem;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+    top:6rem;
+    
+    
   }
   
   .badges {

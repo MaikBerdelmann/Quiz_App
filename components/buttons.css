@@ -12,50 +12,22 @@
   }
   
 
-  .answer_button {
-    position: relative;
-    border-color: var(--border-color);
-    background-color: var(--color-buttons);
-    color: var(--color-answer-button-text);
-    top: 20%;
-    padding: 5px 16px;
-    border-radius: 5px;
-    border 1px solid; 
-    top: rem;
-  }
+
+.answer_button {
+  position: relative;
+  top: 1rem;
+  border-radius: 0.3rem;
+
+}
+
+   
+
+.answer_button:hover {
+  background-color: rgb(19, 212, 19);
+}
 
 
-    .answerChoise:hover {
-    background-color: rgb(26, 191, 26);
-  }
-
-
-  .question_block .answerChoise {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    
-   }
-
-  .answerChoises {
-    display: flex;
-    justify-content: space-between;
-    gap: 4rem;
-    
-    
-    
-    
-  }
-
-  .answerChoise {
-    display: flex;
-    flex-wrap: wrap;
-    top: 3rem;
-    padding: 7px;
-    border-radius: 3rem;
-    
-    
-    
-  }
+  
 
 
 
@@ -77,26 +49,16 @@
    color: black;
   }
 
-  .bookmark_button_two {
-    position: absolute;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    right: -1rem;
-    top: -1rem;
-    font-size: 24px;
-    color: black;
-  }
-  .bookmark_button_clickt_two {
-    background-color: rgba(0, 0, 255, 0.651);
-    color: white;
+ 
     
     
-  }
+  
   .answerBackground {
     position: relative;
     
     
   }
 
- 
+  .hidden {
+    display: none;
+  }
