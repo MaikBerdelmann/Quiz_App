@@ -20,7 +20,7 @@ body {
 }
 
 .background {
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 100%;
   object-fit: cover;
@@ -110,137 +110,7 @@ navigation {
   text-decoration: none;
 }
 
-/*nav {
-  background: var(--background-color-nav);
-  color: var(--color-text);
-  height: 80px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
-  position: sticky;
-  padding: 30px;
-  top: 0;
-  z-index: 1;
-  display: flex;
-  justify-content: space-around;
-  border-radius: 2rem;
-}
 
-a {
-  color: var(--color-text);
-  height: 48px;
-  position: sticky;
-  bottom: 0;
-  text-decoration: none;
-  
-}
-
-a:hover {
-  text-decoration: underline;
-} */
-
-/*.profilbild {
-  position: relative;
-  display: flex;
-  height: 120px;
-  width: 120px;
-  bottom: 15rem;
-  border-radius: 50%;
-  overflow: hidden;
-  top: -3rem;
-}
-
-.pfrofile_name {
-  position: relative;
-  display: flex;
-  left: 10rem;
-  top: -9rem;
-  color: var(--color-text);
-  font-size: 24px;
-}
-
-.profile_header {
-  color: var(--color-text);
-  position: relative;
-  display: flex;
-  justify-content: center;
-}
-
-.settings_headline {
-position: relative;
-display: flex;
-top: -7rem;
-justify-content: start;
-}
-
-.about_me {
-  color: var(--color-text);
-  position: relative;
-  display: flex;
-  justify-content: start;
-  top: -5rem;
-}
-
-.about_me_list {
-  color: var(--color-text);
-  position: relative;
-  display: flex;
-}
-
-.about_me_text {
-  color: var(--color-text);
-  position: relative;
-  display: flex;
-  top: -5rem;
-}
-
-h2 {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  color: var(--color-text);
-  top: 0rem;
-}
-
-.setting_mode {
-  color: var(--color-text);
-  position: relative;
-  display: flex;
-  top: -4rem;
-}
-
-.switch input {
-  appearance: none;
-  width: 100%;
-  height: 100%;
-  border: 2px solid black;
-  margin: 0;
-  border-radius: 20%;
-  transition: transform 0.5s ease-in-out;
-  position: relative;
-  display: flex;
-}
-
-.switch {
-  height: 2rem;
-  width: 2.8rem;
-  display: inline-block;
-  position: relative;
-  display: flex;
-  top: -6.5rem;
-  left: 12rem;
-}
-
-.switch_slide {
-  background-color: var(--color-text);
-  width: 1.2rem;
-  height: 1.6rem;
-  box-shadow: 0 0 1px blue;
-  position: absolute;
-  top: 0.2rem;
-  left: 0.15rem;
-  border-radius: 20%;
-  pointer-events: none;
-  transition: transform 0.5s ease-in-out;
-} */
 
 .massage {
   background-color: black;

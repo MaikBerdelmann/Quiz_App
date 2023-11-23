@@ -29,10 +29,11 @@
   
   a {
     color: var(--color-text);
-    height: 48px;
-    position: staicky;
-    bottom: 0;
+   
+    position: sticky;
+    bottom: 7rem;
     text-decoration: none;
+    padding: 0.4rem;
     
   }
   
